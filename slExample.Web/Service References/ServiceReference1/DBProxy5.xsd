@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DoNet.Common.DbUtility" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DoNet.Common.DbUtility" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="DbType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Unknown" />
+      <xs:enumeration value="MySql" />
+      <xs:enumeration value="Sqlite" />
+      <xs:enumeration value="MSSqlServer" />
+      <xs:enumeration value="Oracle" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DbType" nillable="true" type="tns:DbType" />
+</xs:schema>

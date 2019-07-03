@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DoNet.Common.DbUtility.Data" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DoNet.Common.DbUtility.Data" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="DataSet">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Tables" nillable="true" type="tns:ArrayOfDataTable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataSet" nillable="true" type="tns:DataSet" />
+  <xs:complexType name="ArrayOfDataTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DataTable" nillable="true" type="tns:DataTable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDataTable" nillable="true" type="tns:ArrayOfDataTable" />
+  <xs:complexType name="DataTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Columns" nillable="true" type="tns:ArrayOfDataColumn" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rows" nillable="true" type="tns:ArrayOfDataRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataTable" nillable="true" type="tns:DataTable" />
+  <xs:complexType name="ArrayOfDataColumn">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DataColumn" nillable="true" type="tns:DataColumn" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDataColumn" nillable="true" type="tns:ArrayOfDataColumn" />
+  <xs:complexType name="DataColumn">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Index" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataColumn" nillable="true" type="tns:DataColumn" />
+  <xs:complexType name="ArrayOfDataRow">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DataRow" nillable="true" type="tns:DataRow" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDataRow" nillable="true" type="tns:ArrayOfDataRow" />
+  <xs:complexType name="DataRow">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ItemArray" nillable="true" type="tns:ArrayOfDataItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataRow" nillable="true" type="tns:DataRow" />
+  <xs:complexType name="ArrayOfDataItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DataItem" nillable="true" type="tns:DataItem" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDataItem" nillable="true" type="tns:ArrayOfDataItem" />
+  <xs:complexType name="DataItem">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ColumnName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:anyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DataItem" nillable="true" type="tns:DataItem" />
+</xs:schema>

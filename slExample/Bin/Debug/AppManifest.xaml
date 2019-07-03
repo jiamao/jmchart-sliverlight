@@ -1,0 +1,39 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="slExample" EntryPointType="slExample.App" RuntimeVersion="5.0.61118.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="slExample" Source="slExample.dll" />
+    <AssemblyPart x:Name="JMChart" Source="JMChart.dll" />
+    <AssemblyPart x:Name="Silverlight.Common" Source="Silverlight.Common.dll" />
+    <AssemblyPart x:Name="Silverlight.ProcessEditor" Source="Silverlight.ProcessEditor.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Json" Source="System.Json.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data" Source="System.Windows.Controls.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Input.Toolkit" Source="System.Windows.Controls.Input.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Navigation" Source="System.Windows.Controls.Navigation.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+    <AssemblyPart Source="ko/slExample.resources.dll" />
+    <AssemblyPart Source="fr/System.ComponentModel.DataAnnotations.resources.dll" />
+    <AssemblyPart Source="ko/System.ComponentModel.DataAnnotations.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.ComponentModel.DataAnnotations.resources.dll" />
+    <AssemblyPart Source="fr/System.Json.resources.dll" />
+    <AssemblyPart Source="ko/System.Json.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Json.resources.dll" />
+    <AssemblyPart Source="fr/System.Windows.Controls.resources.dll" />
+    <AssemblyPart Source="ko/System.Windows.Controls.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.resources.dll" />
+    <AssemblyPart Source="fr/System.Windows.Controls.Data.resources.dll" />
+    <AssemblyPart Source="ko/System.Windows.Controls.Data.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.Data.resources.dll" />
+    <AssemblyPart Source="fr/System.Windows.Controls.Data.Input.resources.dll" />
+    <AssemblyPart Source="ko/System.Windows.Controls.Data.Input.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.Data.Input.resources.dll" />
+    <AssemblyPart Source="fr/System.Windows.Controls.Navigation.resources.dll" />
+    <AssemblyPart Source="ko/System.Windows.Controls.Navigation.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Controls.Navigation.resources.dll" />
+    <AssemblyPart Source="fr/System.Windows.Data.resources.dll" />
+    <AssemblyPart Source="ko/System.Windows.Data.resources.dll" />
+    <AssemblyPart Source="zh-Hans/System.Windows.Data.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

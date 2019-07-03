@@ -1,0 +1,12 @@
+﻿<Canvas xmlns="http://schemas.microsoft.com/client/2007" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Name="chartCanvas"
+        Width="680"
+        Height="400"
+        Background="White"
+        >
+  <Canvas.Resources>
+    <!-- Used for animation -->
+    <Storyboard x:Name="timer" Duration="00:00:0"/>
+  </Canvas.Resources>
+</Canvas>

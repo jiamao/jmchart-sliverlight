@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\website\clm-editor" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="slExampleTestPage.html" publishTime="02/24/2012 14:50:11" />
+    <file relUrl="Web.config" publishTime="07/19/2012 11:09:23" />
+    <file relUrl="Silverlight.js" publishTime="12/29/2011 16:54:59" />
+    <file relUrl="slExampleTestPage.aspx" publishTime="02/24/2012 14:49:55" />
+    <file relUrl="bin/slExample.Web.pdb" publishTime="07/19/2012 09:14:20" />
+    <file relUrl="bin/System.Data.OracleClient.dll" publishTime="03/18/2010 19:31:26" />
+    <file relUrl="ClientBin/slExample.xap" publishTime="07/19/2012 15:17:56" />
+    <file relUrl="bin/slExample.Web.dll" publishTime="07/19/2012 09:14:21" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Silverlight.Common.Controls.NumberScrollItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock" x:Key="numberStyle">
+            <Setter Property="Foreground" Value="#000000"></Setter>
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <!--<Setter Property="Height" Value="25"></Setter>-->
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <StackPanel x:Name="LayoutRoot" Orientation="Vertical" VerticalAlignment="Stretch">
+    </StackPanel>
+</UserControl>

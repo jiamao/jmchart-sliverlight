@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d839fea-310f-41e7-8209-bb30dbc2e417" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://oap.qq.com/DBProxy/DBProxy.svc " Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DBProxy.disco" MetadataType="Disco" ID="c884a7ac-b80d-4aa6-a59e-bd623c68c421" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?disco" />
+    <MetadataFile FileName="DBProxy.xsd" MetadataType="Schema" ID="529533ad-378c-4a27-bfea-3ca0cafda8aa" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?xsd=xsd0" />
+    <MetadataFile FileName="DBProxy1.xsd" MetadataType="Schema" ID="5b23b055-105a-4b2c-819d-ea299ef7f7f1" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?xsd=xsd5" />
+    <MetadataFile FileName="DBProxy2.xsd" MetadataType="Schema" ID="aea1c690-e6a9-4f00-b5de-4bae0b565ec9" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?xsd=xsd1" />
+    <MetadataFile FileName="DBHelper.wsdl" MetadataType="Wsdl" ID="932c86b4-0e10-420e-9fd5-f3bd816070e3" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?wsdl" />
+    <MetadataFile FileName="DBProxy3.xsd" MetadataType="Schema" ID="21df9ae6-ac90-47da-8a4e-17badbca6182" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?xsd=xsd2" />
+    <MetadataFile FileName="DBProxy4.xsd" MetadataType="Schema" ID="4fdbc377-5d91-4baa-8844-346b382024f9" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?xsd=xsd4" />
+    <MetadataFile FileName="DBProxy5.xsd" MetadataType="Schema" ID="d7a414c6-5e45-419a-8b8a-56f64e0ca69b" SourceId="1" SourceUrl="http://oap.qq.com/dbproxy/DBProxy.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

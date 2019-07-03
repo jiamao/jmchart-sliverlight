@@ -1,0 +1,5 @@
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\FreeSilverlightChart\ClientBin\FreeSilverlightChart.dll
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\FreeSilverlightChart\ClientBin\FreeSilverlightChart.pdb
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\FreeSilverlightChart\obj\Debug\FreeSilverlightChart.csprojResolveAssemblyReference.cache
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\FreeSilverlightChart\obj\Debug\FreeSilverlightChart.dll
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\FreeSilverlightChart\obj\Debug\FreeSilverlightChart.pdb

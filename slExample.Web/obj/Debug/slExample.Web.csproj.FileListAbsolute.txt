@@ -1,0 +1,13 @@
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\slExample.Web.dll
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\slExample.Web.pdb
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\System.Data.OracleClient.dll
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\obj\Debug\slExample.Web.csprojResolveAssemblyReference.cache
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\obj\Debug\slExample.Web.dll
+D:\微云网盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\obj\Debug\slExample.Web.pdb
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\slExample.Web.dll.config
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\slExample.Web.dll
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\slExample.Web.pdb
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\bin\System.Data.OracleClient.dll
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\obj\Debug\slExample.Web.dll
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\obj\Debug\slExample.Web.pdb
+D:\微云同步盘\273389528\项目\DoNet.Common\Silverlight\slExample.Web\obj\Debug\slExample.Web.csprojResolveAssemblyReference.cache

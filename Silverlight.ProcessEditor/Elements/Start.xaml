@@ -1,0 +1,13 @@
+﻿<my:BaseElement xmlns:my="clr-namespace:Silverlight.ProcessEditor.Elements"  x:Class="Silverlight.ProcessEditor.Elements.Start"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+    
+    <Grid>
+        <Rectangle x:Name="lineRect" HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="0" Width="4" Fill="Gray"  ></Rectangle>
+        <Rectangle x:Name="centerRect" HorizontalAlignment="Center" VerticalAlignment="Stretch"  Width="8" Margin="0,11" Fill="Black"  ></Rectangle>        
+    </Grid>
+</my:BaseElement>
